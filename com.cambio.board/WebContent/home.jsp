@@ -75,14 +75,6 @@
 	.board1{
 		line-height: 5em;
 	}
-	.imgdiv {
-		width: 100%;
-		height: 800px;
-		background-image: url("image/ace.jpg");
-		background-size: cover;
-		background-repeat: no-repeat;
-		opacity: 0.5;
-	}
 </style>
 </head>
 <body>
@@ -108,11 +100,6 @@
 				<a class = "board1" href = "javascript:popUp4(500, 250)">회원탈퇴</a>
 			</div>
 			<jsp:include page="<%=menu %>"></jsp:include>
-		</div>
-	</form>
-	<form class="form2">
-		<div class="imgdiv">
-			
 		</div>
 	</form>
 </body>
